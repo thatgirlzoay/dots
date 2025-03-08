@@ -1,5 +1,5 @@
 # Dots
-dots for my linux mint i3 setup C:
+dots for my linux mint i3 setup :3
 
 ## Overview
 - Distro: Linux Mint
@@ -13,7 +13,7 @@ dots for my linux mint i3 setup C:
 - Terminal Apps: cava, pipes, cmatrix, kew, hyfetch (custom alias for ascii)
 
 ## Note
-This is my configurations for my needs, I have commented out anything that wont work straight away (e.g. launch saved workspace layouts)
-Files such as workspace layouts and start sctipts will be included so you can use the same layout in the screenshots.
-> MAKE Sure you edit/change the apps in load_layout_foo.sh and in the workspace_foo.json to the apps you want to auto launch there. (foo being workspace number/name)
-> If you are confused or lost about saving workplace layouts, read threw this [i3 doc](https://i3wm.org/docs/layout-saving.html), also [arch wiki](https://wiki.archlinux.org/title/I3#Save_and_restore_the_window_layout) has info on it.
+This is my config for my needs, I have commented out anything that wont work straight away (e.g. launch saved workspace layouts)<br>
+Files such as workspace layouts and start sctipts will be included if you would like to use them.
+
+If you are confused about saving and loading workplace layouts, read threw this [i3 doc](https://i3wm.org/docs/layout-saving.html), also the [arch wiki on i3](https://wiki.archlinux.org/title/I3#Save_and_restore_the_window_layout) has info on it.
