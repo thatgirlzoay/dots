@@ -1,0 +1,127 @@
+// vim:ts=4:sw=4:et
+{
+    // splith split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 1,
+    "type": "con",
+    "nodes": [
+        {
+            // splitv split container with 2 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "marks": [],
+            "percent": 0.369148936170213,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 465,
+                       "width": 672,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "kew",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                        "class": "^kitty$",
+                        "instance": "^kitty$",
+                        "machine": "^laptop$",
+                        "title": "^kew$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 465,
+                       "width": 660,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "~",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                        "class": "^kitty$",
+                        "instance": "^kitty$",
+                        "machine": "^laptop$",
+                        "title": "^cava$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            // splitv split container with 2 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "marks": [],
+            "percent": 0.630851063829787,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 953,
+                       "width": 1096,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "ranger",
+                    "percent": 0.762788365095286,
+                    "swallows": [
+                       {
+                       "class": "^kitty$",
+                       "instance": "^kitty$",
+                       "machine": "^laptop$",
+                       "title": "^ranger$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 225,
+                       "width": 906,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "cmatrix",
+                    "percent": 0.237211634904714,
+                    "swallows": [
+                       {
+                       "class": "^kitty$",
+                       "instance": "^kitty$",
+                       "machine": "^laptop$",
+                       "title": "^cmatrix$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+

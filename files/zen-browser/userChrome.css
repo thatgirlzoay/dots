@@ -1,0 +1,69 @@
+@media not (-moz-bool-pref: 'zen.view.compact') {
+	@media not (-moz-bool-pref: 'zen.tabs.vertical.right-side') {  
+		
+		/* Hidden Elements */
+		#zen-expand-sidebar-button,
+		#zen-profile-button,
+		#PersonalToolbar {
+			display: none;
+		}
+
+		/* Extension Popups Fix */
+		#unified-extensions-panel,
+	 	.unified-extensions-item-menu-button,
+	 	.unified-extensions-item-action-button,
+	 	.panel-subview-body,
+	 	.subviewbutton,
+	 	.unified-extensions-item-contents,
+	 	.unified-extensions-item {
+			pointer-events: auto !important;
+			z-index: 999999 !important;
+		}
+		
+		/* Sidebar Width Setting */
+	  	@media (-moz-bool-pref: "ark-left.maintain-default-sidebar-width") {
+			#navigator-toolbox {
+		 		min-width: 215px !important;
+		    	max-width: 215px !important;
+			}
+	   
+			#zen-sidebar-splitter { pointer-events: none; }
+	  	}
+	}
+}
+
+/* CUSTOM FROM ZOEY */
+.tab-context-line {
+	display: none !important;
+}
+
+
+#urlbar:not([open][zen-floating-urlbar='true']) {
+	height: 38px !important;
+}
+
+#urlbar-input {
+	font-size: 12.5px !important;
+}
+  
+#zen-sidebar-splitter {
+  opacity: 0 !important;
+  border: none !important;
+}
+
+#userContext-icons, #identity-box {
+  display: none !important;
+}
+
+#personal-bookmarks {
+  padding: 0px !important;
+  padding-bottom: 5px !important;
+}
+
+#personal-bookmarks:hover {
+  background-color: transparent !important;
+}
+
+#zen-workspaces-button {
+  display: none !important;
+}
