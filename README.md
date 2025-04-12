@@ -12,6 +12,15 @@ dots for my linux mint i3 setup :3
 - File Manager: ranger
 - Terminal Apps: cava, pipes, cmatrix, kew, hyfetch (custom alias for ascii)
 
+## Apps
+I use some apps such as:
+- feh (Background setting)
+- betterlockscreen (Lockscreen)
+- brightnessctl (brightness)
+- playerctl (content control?)
+
+Theres probally more but I forgot :3
+
 ## Note
 This is my config for my needs, I have commented out anything that wont work straight away (e.g. launch saved workspace layouts)<br>
 Files such as workspace layouts and start sctipts will be included if you would like to use them.
